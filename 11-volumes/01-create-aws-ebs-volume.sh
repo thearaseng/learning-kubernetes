@@ -1,0 +1,1 @@
+aws ec2 create-volume --size 10 --region ap-southeast-1 --availability-zone ap-southeast-1b --volume-type gp2 --tag-specifications 'ResourceType=volume, Tags=[{Key= KubernetesCluster, Value=kubernetes.thearaseng.com}]'
